@@ -24,7 +24,6 @@ public class FileLoader extends Connector {
 
     public FileLoader(String targetFilePath) {
         super();
-        connect();
         this.targetFilePath = targetFilePath;
     }
 

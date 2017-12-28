@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Connector {
     @Autowired
-    private static SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
     public Connector() {
         // create basic config

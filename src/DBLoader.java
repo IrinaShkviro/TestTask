@@ -14,7 +14,6 @@ public class DBLoader extends Connector {
 
     public DBLoader(String sourceFilePath) {
         super();
-        connect();
         this.sourceFilePath = sourceFilePath;
     }
 
